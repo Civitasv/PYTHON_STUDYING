@@ -11,7 +11,7 @@ def findDuplicate(arr):
 
     ptr1 = arr[0]
     ptr2 = tortoise
-
+    
     while ptr1 != ptr2:
         ptr1 = arr[ptr1]
         ptr2 = arr[ptr2]
