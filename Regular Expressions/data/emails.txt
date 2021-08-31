@@ -1,0 +1,8 @@
+
+CoreyMSchafer@gmail.com
+corey.schafer@university.edu
+corey-321-schafer@my-work.net
+
+expression:
+
+[a-zA-Z0-9.-]+@[a-zA-Z-]+\.(com|edu|net)

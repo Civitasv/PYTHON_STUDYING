@@ -1,0 +1,6 @@
+https://www.google.com
+http://coreyms.com
+https://youtube.com
+https://www.nasa.gov
+
+expression: ^(http|https):/{2}(www.)?[a-z]*\.(com|gov)$
