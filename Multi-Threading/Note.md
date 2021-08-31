@@ -1,6 +1,4 @@
-# 线程/进程
-
-## 线程
+# 线程
 
 python 中的多线程使用`threading`模块，在需要频繁 IO 操作（如文件上传、文件下载）的问题中有很大作用，对于 CPU 占用高的计算工作，应使用`multi-processing`模块使用函数式编程进行并行化。
 
@@ -210,7 +208,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
 
 注意，即使我们不获取 results，`submit`和`map`函数也会等待函数执行完毕后再执行下面的其他代码。
 
-### 实例：图片下载
+## 实例：图片下载
 
 下面我们使用图片下载作为示例。
 
