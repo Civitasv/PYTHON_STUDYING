@@ -1,0 +1,12 @@
+qokuve.vdnaftvpt@265.com
+sotvkh@eyou.com
+wvvbbuw@sohu.com
+lsbwdrbn@sogou.com
+faclcgjaebdhp@35.com
+hmshsbtoulnriw@hotmail.com
+weela@xinhuanet.net
+jquvvfafp@21cn.com
+nrlrauj@263.net
+Charl.Brian@whu.edu.cn
+
+^[a-zA-Z\.]+@[a-zA-Z0-9]+\.(com|net|edu.cn)$

@@ -1,0 +1,89 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "B0FFG7STOJ",
+                "name": "肯德基(中央路店)",
+                "type": "餐饮服务;快餐厅;肯德基",
+                "typecode": "050301",
+                "address": "中央北路发达广场1层",
+                "tel": "4009208801",
+                "pname": "内蒙古自治区",
+                "cityname": "呼伦贝尔市",
+                "adname": "扎兰屯市"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    122.749107,
+                    47.997982
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "B0FFGKXSJD",
+                "name": "肯德基(金宝店)",
+                "type": "餐饮服务;快餐厅;肯德基",
+                "typecode": "050301",
+                "address": "建设路金宝商场1层",
+                "tel": "0452-5862820",
+                "pname": "黑龙江省",
+                "cityname": "齐齐哈尔市",
+                "adname": "龙江县"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.195579,
+                    47.341966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "B0FFG71NWW",
+                "name": "肯德基(建华万达店)",
+                "type": "餐饮服务;快餐厅;肯德基",
+                "typecode": "050301",
+                "address": "新江路1号建华万达广场2号门1楼",
+                "tel": "0452-6038996",
+                "pname": "黑龙江省",
+                "cityname": "齐齐哈尔市",
+                "adname": "建华区"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.946727,
+                    47.368225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "B01C4021JK",
+                "name": "肯德基(中瑞店)",
+                "type": "餐饮服务;快餐厅;肯德基",
+                "typecode": "050301",
+                "address": "西二道街92号中瑞时代广场1层",
+                "tel": "0452-2469201;0452-2423543",
+                "pname": "黑龙江省",
+                "cityname": "齐齐哈尔市",
+                "adname": "建华区"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.953001,
+                    47.350698
+                ]
+            }
+        }
+    ]
+}
