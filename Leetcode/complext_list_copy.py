@@ -24,7 +24,7 @@ class Solution:
             temp = temp.next.next
 
         temp = head.next
-        while temp and temp.next:
+        while temp.next:
             temp.next = temp.next.next
             temp = temp.next
 
