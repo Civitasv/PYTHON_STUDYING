@@ -10,15 +10,47 @@ class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         if not head:
             return None
-        fake = Node(0)
-        tfake = fake
-        hset = {}
+
         temp = head
         while temp:
-            node = Node(temp.val)
-            tfake.next = node
-            hset[]
-            random = temp.random
-            rnode = Node(random.val, random.next)
-            if rnode in set:
-                node.random = rnode
+            node = Node(temp.val, temp.next)
+            temp.next = node
+            temp = temp.next.next
+
+        temp = head
+        while temp:
+            if temp.random:
+                temp.next.random = temp.random.next
+            temp = temp.next.next
+
+        temp = head.next
+        while temp and temp.next:
+            temp.next = temp.next.next
+            temp = temp.next
+
+        return head.next
+
+
+a = Node(7)
+b = Node(13)
+c = Node(11)
+d = Node(10)
+e = Node(1)
+
+a.next = b
+b.next = c
+c.next = d
+d.next = e
+
+b.random = a
+c.random = e
+d.random = c
+e.random = a
+
+s = Solution()
+
+ac = s.copyRandomList(a)
+
+while ac:
+    print(ac.val)
+    ac = ac.next
