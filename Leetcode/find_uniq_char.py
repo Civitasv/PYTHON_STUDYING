@@ -1,6 +1,5 @@
 class Solution:
     def firstUniqChar(self, s: str) -> str:
-        set = []
         alphabets = [0 for _ in range(26)]
         for c in s:
             alphabets[ord(c)-97] += 1
