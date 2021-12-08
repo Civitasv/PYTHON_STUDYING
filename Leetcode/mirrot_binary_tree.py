@@ -15,3 +15,5 @@ class Solution:
 
         res.left = self.mirrorTree(root.right)
         res.right = self.mirrorTree(root.left)
+
+        return res

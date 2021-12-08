@@ -19,6 +19,8 @@ class Solution:
         while nodes:
             node = nodes.popleft()
             result.append(node.val)
-            nodes.append(node.left)
-            nodes.append(node.right)
+            if node.left:
+                nodes.append(node.left)
+            if node.right:
+                nodes.append(node.right)
         return result

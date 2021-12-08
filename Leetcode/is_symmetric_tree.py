@@ -43,3 +43,14 @@ class Solution:
 
             nodes = children
         return True
+
+    def isSymmetric2(self, root):
+        def helper(l, r):
+            if not l and not r:
+                return True
+            if not l or not r:
+                return False
+            if l.val != r.val:
+                return False
+            return helper(l.left, r.right) and helper(l.right, r.left)
+        return helper(root.left, root.right) if root else True
